@@ -1,0 +1,127 @@
+body {
+    font-family: "Poppins", sans-serif;
+    padding: 20px;
+    background: conic-gradient(from 45deg, #ffcccc, #ffcc99, #ffcc66, #ffcc33, #ffcc00, #ccccff, #cc99ff, #cc66ff, #cc33ff, #cc00ff);
+    margin: 0
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #fff; 
+}
+
+p{
+    color: #000;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for form */
+    border-radius: 8px;
+    box-shadow: 0 0 10px #cc99ff;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    color: black; 
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #008000; /* Border for input fields */
+    border-radius: 5px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Hover effect for the input fields */
+form input[type="text"]:hover,
+form input[type="email"]:hover {
+    border-color: #008000;
+    box-shadow: 0 0 15px #008000;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #008000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Hover effect for the register button */
+form button:hover {
+    background-color: #45a049;
+    box-shadow: 0 0 15px #008000;
+    transform: scale(1.05);
+}
+
+#studentRecords {
+    margin-top: 30px;
+}
+
+#recordsTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#recordsTable th,
+#recordsTable td {
+    border: 1px solid #000000;
+    padding: 8px;
+}
+
+#recordsTable th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+#recordsTable td button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Styling for edit button */
+.edit-btn {
+    background-color: #ffc107;
+    color: white;
+}
+
+/* Styling for delete button */
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Hover effect for edit button */
+.edit-btn:hover {
+    background-color: #e0a800;
+    transform: scale(1.05);
+}
+
+/* Hover effect for delete button */
+.delete-btn:hover {
+    background-color: #d32f2f;
+    transform: scale(1.05);
+}
